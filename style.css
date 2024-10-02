@@ -1,0 +1,119 @@
+/* Default Styles (Day Mode) */
+html {
+    background-color: #87ceeb; /* Light blue background */
+    font-size: 10px; /* Base font size */
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 2rem 1rem;
+    border: 10px solid black;
+    border-radius: 10px;
+    color: #333;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding: 2rem 0;
+    color: #00539f;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+strong, em {
+    color: blueviolet;
+}
+
+.box {
+    width: 100%;
+    max-width: 500px;
+    height: 120px;
+    background-color: ghostwhite;
+    border: 5px solid green;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+span {
+    background-color: yellow;
+}
+
+img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Night Mode Styles */
+body.night-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.night-mode h1,
+body.night-mode p,
+body.night-mode li {
+    color: #fff;
+}
+
+body.night-mode .box {
+    background-color: #444;
+    border: 5px solid lightgreen;
+}
+
+body.night-mode #myButton4 {
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+html.night-mode {
+    background-color: #111;
+}
+
+/* Button Styles */
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover and Focus States for Buttons */
+button:hover, button:focus {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    p, li {
+        font-size: 1.4rem;
+    }
+
+    .box {
+        height: auto;
+    }
+
+    body {
+        padding: 1rem;
+    }
+}
